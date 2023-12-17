@@ -13,6 +13,8 @@ return {
         require'lspconfig'.html.setup{}
         require'lspconfig'.digestif.setup{}
         require'lspconfig'.hls.setup{}
+        require'lspconfig'.lemminx.setup{}
+        require'lspconfig'.rust_analyzer.setup{}
     end, dependencies = 'ms-jpq/coq_nvim'},
 
 	{
